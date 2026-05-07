@@ -1,0 +1,12 @@
+a. Tạo 3 file: file1, file2, file3
+-> Lúc này 3 file mới chỉ ở trong folder, chưa chạy lệnh git init -> repo chưa được khởi tạo, nên 3 file này hiện đang ở vùng working directory
+b. Chạy lệnh git init
+-> Khởi tạo repository ở trong folder, 3 file vẫn ở working directory
+c. Chạy lệnh git commit -m "init project"
+-> tạo ra 1 commit tuy nhiên chưa chạy lệnh git add ->  staging area trống -> không có gì ở vùng repository
+d. Chạy lệnh git add file1
+-> add file1 vào staging area
+e. Chạy lệnh git commit -m "addfile1"
+-> add file1 từ staging area vào repository -> lúc này repository chỉ chứa duy nhất file1
+f. Chạy lệnh git commit -m "addfile"
+-> không có gì được add thêm vào repository vì sau bước e, staging area hiện đang trống không

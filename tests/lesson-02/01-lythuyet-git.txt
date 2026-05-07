@@ -1,0 +1,4 @@
+git init: Câu lệnh dùng để khởi tạo repository
+git add <file name>: Câu lệnh dùng để add 1 file trong working folder của mình vào staging area
+git add .: Câu lệnh dùng để add toàn bộ các file trong working folder của mình vào staging area
+git commit -m "message": Câu lệnh dùng để chuyển toàn bộ các phần đã nằm ở trong staging area sang repository chính thức, từ đó tạo ra 1 commit
