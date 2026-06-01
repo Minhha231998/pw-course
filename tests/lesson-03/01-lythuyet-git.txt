@@ -1,0 +1,4 @@
+- git commit --amend: sử dụng khi vừa commit mà quên mất không thêm file cần thiết vào commit đó, sau khi chạy lệnh thì File mới được gộp vào commit cũ, terminal mở lên để sửa message.
+- git commit --amend -m"<message>": Sử dụng khi Viết sai chính tả hoặc viết sai tên câu commit gần nhất. sau khi chạy lệnh thì Đổi tên commit gần nhất
+- git restore --staged <file name>: di chuyển code từ staging area về working area, 
+- git reset HEAD~1: Di chuyển code từ repository về working area

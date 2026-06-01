@@ -1,0 +1,33 @@
+Giả sử có 1 folder tên là demo được tạo ra, hãy liệt kê các file theo từng vùng sau khi chạy mỗi lệnh sau:
+a. Chạy lệnh git init
+-Local:
+-Working directory: 
+-Staging area:
+-Repository: 
+
+b. Tạo file1, file2.txt, oops/file3.txt
+-Local:
+-Working directory: file1.txt, file2.txt, oops/file3.txt
+-Staging area:
+-Repository:
+
+c. Thêm file .gitignore. Thêm vào 2 dòng:
+- file1.txt
+- oops/
+
+-Local:
+-Working directory: file1.txt, file2.txt, oops/file3.txt, .gitignore
+-Staging area:
+-Repository:
+
+d. Chạy lệnh: git add.
+-Local:
+-Working directory: file1.txt, file2.txt, oops/file3.txt
+-Staging area: file2.txt, .gitignore
+-Repository:
+
+e. Chạy lệnh: git commit -m "init project"
+-Local:
+-Working directory: file1.txt, file2.txt, oops/file3.txt
+-Staging area:
+-Repository: file2.txt, .gitignore
