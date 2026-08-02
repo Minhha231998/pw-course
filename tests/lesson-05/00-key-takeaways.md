@@ -147,9 +147,9 @@ setTimeOut(function(){
 ```javascript
 import { test } from '@playwright/test';
 
-test('tên test', async ({ page }) ) => {
-    // Code của test
-};
+test("tên test", async ({ page }) => {
+
+});
 ```
 * step: Đơn vị nhỏ hơn của test, để khai báo từng step của test case
 ```javascript
