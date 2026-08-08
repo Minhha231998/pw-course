@@ -153,11 +153,12 @@ test("tên test", async ({ page }) => {
 ```
 * step: Đơn vị nhỏ hơn của test, để khai báo từng step của test case
 ```javascript
-test('tên test', async ({ page }) ) => {
+test("tên test", async ({ page }) => {
+    
     await test.step('tên step', async () => {
-        // Code here
+        // code  của test
     });
-};
+});
 
 // Lưu ý: step nên được map 1-1 với test case để dễ dàng maintain
 ```
