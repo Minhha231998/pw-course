@@ -1,0 +1,13 @@
+Phần 1: Sử dụng Xpath tuyệt đối
+
+Lấy input “Họ và tên”: /html/body/div/div[1]/form/input[1]
+Lấy button “Đăng ký”:/html/body/div/div[1]/form/button
+Lấy hàng đầu tiên trong tbody:/html/body/div/div[2]/table/tbody/tr[1]
+
+PHẦN 2: XPATH TƯƠNG ĐỐI (Relative XPath)
+
+Lấy input có placeholder=”Số điện thoại”: //input[@placeholder='Số điện thoại']
+Lấy email của “Trần Thị Bình” (hàng 2, cột 2): //td[text()='Trần Thị Bình']/following-sibling::td[1]
+Lấy số điện thoại của “Lê Hoàng Cường” (hàng 3, cột 3): //td[text()='Lê Hoàng Cường']/following-sibling::td[2]
+Lấy button có class=”btn-register”: //button[@class='btn-register']
+Lấy table có id=”resultTable”: //table[@id='resultTable']
